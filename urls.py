@@ -1,7 +1,9 @@
 class Urls:
-    # Основные URL-адреса приложения Stellar Burgers
+    # Базовый URL
     MAIN_PAGE = "https://stellarburgers.nomoreparties.site/"
-    LOGIN_PAGE = "https://stellarburgers.nomoreparties.site/login"
-    REGISTER_PAGE = "https://stellarburgers.nomoreparties.site/register"
-    FORGOT_PASSWORD_PAGE = "https://stellarburgers.nomoreparties.site/forgot-password"
-    PROFILE_PAGE = "https://stellarburgers.nomoreparties.site/account/profile"
+
+    # Основные URL-адреса приложения Stellar Burgers
+    LOGIN_PAGE = MAIN_PAGE + "login"
+    REGISTER_PAGE = MAIN_PAGE + "register"
+    FORGOT_PASSWORD_PAGE = MAIN_PAGE + "forgot-password"
+    PROFILE_PAGE = MAIN_PAGE + "account/profile"
